@@ -1,0 +1,636 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 16px;
+  font-weight: regular;
+}
+
+.color1 {
+  color: rgb(240, 41, 101);
+}
+
+.colorb {
+  background-color: black;
+}
+
+.brand {
+  font-size: 25px;
+}
+
+.navicon {
+  border-color: rgb(240, 41, 101);
+  color: rgb(240, 41, 101);
+  fill: rgb(240, 41, 101);
+}
+.nav1 {
+  background-color: black;
+  width: 100vw;
+}
+#nav {
+  margin-left: 50px;
+}
+
+#nav li {
+  padding: 10px;
+  list-style: none;
+  text-decoration: none;
+  font-size: 16px;
+  display: inline;
+  font-family: "Courier New", Courier, monospace;
+}
+
+#nav a {
+  text-decoration: none;
+  color: white;
+}
+
+#nav a:hover {
+  text-decoration: underline;
+  color: rgb(240, 41, 101);
+}
+
+.headerimg {
+  height: 600px;
+  background-image: url(../images/header.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.headertext {
+  text-align: left;
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.headertext h1 {
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.headertext h2 {
+  font-size: 20px;
+  font-weight: bolder;
+}
+.headerButton {
+  border-style: solid;
+  color: white;
+  width: auto;
+  font-size: 25px;
+  position: absolute;
+  top: 75%;
+  border-radius: 20px;
+  text-decoration: none;
+  left: 12%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.headerButton li {
+  list-style: none;
+  padding: 5px 15px;
+  text-decoration: none;
+  color: white;
+}
+
+.headerButton li:hover {
+  list-style: none;
+  padding: 5px 15px;
+  text-decoration: none;
+  color: rgb(240, 41, 101);
+  background-color: whitesmoke;
+  font-weight: bold;
+  border-radius: 20px;
+}
+.headerButton a:hover {
+  text-decoration: none;
+}
+
+.name {
+  color: rgb(240, 41, 101);
+  font-weight: 900;
+}
+.project {
+  text-align: left;
+  display: inline-block;
+}
+.project li {
+  padding: 5px 5px;
+  border-radius: 20px;
+  list-style: none;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: "Courier New", Courier, monospace;
+  color: white;
+  background-color: rgb(240, 41, 101);
+  display: inline-block;
+}
+.project li:hover {
+  text-decoration: none;
+  color: rgb(240, 41, 101);
+  background-color: white;
+  border-style: solid;
+  border-color: rgb(240, 41, 101);
+}
+
+.stacklogo {
+  height: 70px;
+  margin-right: 20px;
+}
+
+.stacklogo-big {
+  height: 78px;
+  margin-right: 20px;
+}
+
+.stacktext {
+  margin-top: 30px;
+  font-weight: bold;
+}
+
+.git-repo {
+  color: black;
+}
+.git-repo:hover {
+  color: rgb(240, 41, 101);
+  text-decoration: none;
+  margin-left: 10px;
+  font-size: 1.2rem;
+}
+
+.line {
+  text-decoration: line-through;
+}
+
+.social {
+  font-size: 20px;
+  text-align: left;
+  display: inline-block;
+}
+
+.social a {
+  color: black;
+}
+
+.social a:hover {
+  color: rgb(240, 41, 101);
+}
+
+#so {
+  /* display: block; */
+  margin-top: 30px;
+  text-align: center;
+}
+
+.img img {
+  margin-top: 20px;
+  border-top-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  height: 300px;
+}
+.about {
+  margin-top: 20px;
+
+  height: 100px;
+}
+
+.me h1 {
+  color: rgb(36, 36, 100);
+}
+
+.me-text {
+  font-family: "Courier New", Courier, monospace;
+  text-align: left;
+
+  font-size: 1rem;
+}
+.me-text-width {
+  width: 300px;
+}
+
+.form {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  color: black;
+}
+.button {
+  background: black;
+  text-align: center;
+  padding: 5px 25px;
+  border-radius: 20px;
+  color: white;
+  margin-left: 12px;
+}
+.button:hover {
+  background: white;
+  text-align: center;
+
+  color: black;
+  border-style: solid;
+  border-color: black;
+}
+.input,
+.msg {
+  margin-left: 10px;
+  width: 300px;
+  padding: 5px;
+  border: 0;
+  border-bottom: 2px solid black;
+}
+.msg {
+  height: 100px;
+}
+.text {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  font-size: 20px;
+}
+.text2 {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  font-size: 20px;
+  background-color: rgb(240, 41, 101);
+  display: inline-block;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 20px;
+}
+
+.section {
+  padding: 4rem;
+  box-shadow: -5px 10px 32px 1px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -5px 10px 32px 1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -5px 10px 32px 1px rgba(0, 0, 0, 0.75);
+  margin-bottom: 6rem;
+}
+
+.section:hover {
+  border-radius: 1rem;
+  padding: 4.3rem;
+  box-shadow: -5px 10px 32px 1px rgba(240, 41, 101, 0.75);
+  -webkit-box-shadow: -5px 10px 32px 1px rgba(240, 41, 101, 0.75);
+  -moz-box-shadow: -5px 10px 32px 1px rgba(240, 41, 101, 0.75);
+  margin-bottom: 6rem;
+}
+.logo {
+  background-color: white;
+  color: rgb(240, 41, 101);
+  font-size: 25px;
+  font-weight: bolder;
+  padding: 5px 10px;
+  border-radius: 30px;
+}
+.logo:hover {
+  background-color: rgb(240, 41, 101);
+  color: white;
+  font-size: 25px;
+  font-weight: bolder;
+  padding: 5px 10px;
+  border-radius: 30px;
+  text-decoration: none;
+}
+
+.dividright {
+  padding-bottom: 2rem;
+  border-bottom-style: solid;
+  border-width: 5px;
+  border-bottom-color: rgb(240, 41, 101);
+}
+
+.projectframe {
+  height: 170px;
+  width: 150px;
+  background-color: black;
+  z-index: 100;
+}
+
+.projectframe1 {
+  height: 170px;
+  width: 150px;
+  background: linear-gradient(rgba(255, 255, 255, 0), rgba(250, 250, 250, 0)),
+    url(../images/slacklogo.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.projectframe1:hover {
+  height: 170px;
+  width: 150px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)),
+    url(../images/slacklogo.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+.projectframe2 {
+  height: 170px;
+  width: 150px;
+  background-image: url(../images/bookingapp.PNG);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.projectframe2:hover {
+  height: 170px;
+  width: 150px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)),
+    url(/images/bookingapp.PNG);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+.projectframe3 {
+  height: 170px;
+  width: 150px;
+  background-image: url(../images/starwars.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.projectframe3:hover {
+  height: 170px;
+  width: 150px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)),
+    url(/images/starwars.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+.projectframe4 {
+  height: 170px;
+  width: 150px;
+  background-image: url(../images/debt.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.projectframe4:hover {
+  height: 170px;
+  width: 150px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)),
+    url(/images/debt.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+
+.mobileframe1 {
+  height: 170px;
+  width: 150px;
+  background-image: url(../images/Livechat.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.mobileframe1:hover {
+  height: 170px;
+  width: 150px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)),
+    url(/images/Livechat.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+.mobileframe2 {
+  height: 170px;
+  width: 150px;
+  background-image: url(../images/foodapp.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.mobileframe2:hover {
+  height: 170px;
+  width: 150px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)),
+    url(/images/foodapp.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+.mobileframe3 {
+  height: 170px;
+  width: 150px;
+  background-image: url(../images/travel.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.mobileframe3:hover {
+  height: 170px;
+  width: 150px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)),
+    url(/images/travel.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+.mobileframe4 {
+  height: 170px;
+  width: 150px;
+  background-image: url(../images/ecom.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.mobileframe4:hover {
+  height: 170px;
+  width: 150px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)),
+    url(/images/ecom.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+
+.projectframe-m {
+  margin-top: 75px;
+}
+
+.frametext {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: white;
+  transform: translate(-50%);
+  font-weight: bolder;
+  z-index: -2;
+}
+.frametext:hover {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%);
+  z-index: 10;
+}
+
+::-moz-placeholder {
+  color: black;
+}
+::-ms-input-placeholder {
+  color: black;
+}
+::-webkit-input-placeholder {
+  color: black;
+}
+@media (max-width: 768px) {
+  .mobile-flex {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .mobile-skill {
+    display: flex;
+  }
+  .headerimg {
+    height: 500px;
+  }
+  .headertext h1 {
+    font-size: 25px;
+  }
+  .headertext h2 {
+    font-size: 20px;
+  }
+  .headertext {
+    text-align: left;
+    position: absolute;
+    top: 60%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: "Courier New", Courier, monospace;
+  }
+  .headerButton {
+    font-size: 1rem;
+    position: absolute;
+    top: 90%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+  }
+
+  .text2 {
+    margin-top: 20px;
+  }
+
+  .projectframe1 {
+    margin: 0 auto;
+  }
+  .projectframe2 {
+    margin: 0 auto;
+  }
+  .projectframe3 {
+    margin: 0 auto;
+  }
+  .projectframe4 {
+    margin: 0 auto;
+  }
+
+  .mobileframe1 {
+    margin: 0 auto;
+  }
+  .mobileframe2 {
+    margin: 0 auto;
+  }
+  .mobileframe3 {
+    margin: 0 auto;
+  }
+  .mobileframe4 {
+    margin: 0 auto;
+  }
+
+  .project li {
+    margin-left: 20px;
+  }
+
+  .projectframe-m {
+    margin-top: 15px;
+  }
+  .project {
+    text-align: left;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  .text {
+    margin-top: 20px;
+  }
+
+  .me {
+    display: inline-block;
+    margin-left: 55px;
+  }
+
+  .img img {
+    margin-top: 10px;
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    height: 150px;
+  }
+
+  .me-text {
+    margin: 0 auto;
+    font-size: 16px;
+  }
+  .me-text-width {
+    width: 230px;
+  }
+
+  .word {
+    font-size: 25px;
+  }
+
+  .button {
+    background: black;
+    text-align: center;
+    padding: 5px 2px;
+    border-radius: 5px;
+    color: white;
+    display: block;
+    width: 85%;
+  }
+
+  .mobile {
+    display: flex;
+    margin-top: 20px;
+   
+  }
+  .social{
+    margin-top: 10px;
+    margin-left: 5px;
+  }
+  .input,
+.msg {
+  margin-left: 10px;
+  width: 200px;
+  padding: 5px;
+  border: 0;
+  border-bottom: 2px solid black;
+}
+ 
+}
