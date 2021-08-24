@@ -507,6 +507,7 @@ body {
   }
   .mobile-skill {
     display: flex;
+    justify-content: space-around;
   }
   .headerimg {
     height: 500px;
