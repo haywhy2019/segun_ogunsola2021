@@ -127,9 +127,11 @@ body {
 }
 .project li {
   padding: 5px 5px;
+  width: 10rem;
   border-radius: 20px;
   list-style: none;
   text-decoration: none;
+  text-align: center;
   font-size: 15px;
   font-family: "Courier New", Courier, monospace;
   color: white;
@@ -153,6 +155,7 @@ body {
   height: 78px;
   margin-right: 20px;
 }
+
 
 .stacktext {
   margin-top: 30px;
@@ -198,6 +201,7 @@ body {
   border-top-left-radius: 50%;
   border-bottom-right-radius: 50%;
   height: 300px;
+
 }
 .about {
   margin-top: 20px;
@@ -316,44 +320,31 @@ body {
 }
 
 .projectframe1 {
-  height: 170px;
-  width: 150px;
+  height: 15rem;
+  /* width: 5rem; */
   background: linear-gradient(rgba(255, 255, 255, 0), rgba(250, 250, 250, 0)),
-    url(../images/slacklogo.png);
+    url(../images/cloudbank.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   position: relative;
+  box-shadow: -5px 10px 32px 1px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -5px 10px 32px 1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -5px 10px 32px 1px rgba(0, 0, 0, 0.75);
 }
-.projectframe1:hover {
-  height: 170px;
-  width: 150px;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)),
-    url(../images/slacklogo.png);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  z-index: 1;
-}
+
 .projectframe2 {
-  height: 170px;
-  width: 150px;
-  background-image: url(../images/bookingapp.PNG);
+  height: 15rem;
+  background-image: url(../images/hiversa.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   position: relative;
+  box-shadow: -5px 10px 32px 1px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -5px 10px 32px 1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -5px 10px 32px 1px rgba(0, 0, 0, 0.75);
 }
-.projectframe2:hover {
-  height: 170px;
-  width: 150px;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)),
-    url(/images/bookingapp.PNG);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  z-index: 1;
-}
+
 .projectframe3 {
   height: 170px;
   width: 150px;
@@ -394,15 +385,15 @@ body {
 }
 
 .mobileframe1 {
-  height: 170px;
-  width: 150px;
-  background-image: url(../images/Livechat.jpg);
+  height: 15rem;
+  /* width: 150px; */
+  background-image: url(../images/hiversa_mobile.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  position: relative;
+  /* position: relative; */
 }
-.mobileframe1:hover {
+/* .mobileframe1:hover {
   height: 170px;
   width: 150px;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)),
@@ -411,26 +402,17 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   z-index: 1;
-}
+} */
 .mobileframe2 {
-  height: 170px;
-  width: 150px;
-  background-image: url(../images/foodapp.jpg);
+  height: 15rem;
+  /* width: 150px; */
+  background-image: url(../images/agility.png);
   background-size: cover;
-  background-position: center;
+  background-position: top;
   background-repeat: no-repeat;
   position: relative;
 }
-.mobileframe2:hover {
-  height: 170px;
-  width: 150px;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)),
-    url(/images/foodapp.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  z-index: 1;
-}
+
 .mobileframe3 {
   height: 170px;
   width: 150px;
@@ -474,6 +456,8 @@ body {
   margin-top: 75px;
 }
 
+
+
 .frametext {
   position: absolute;
   top: 50%;
@@ -500,6 +484,13 @@ body {
 ::-webkit-input-placeholder {
   color: black;
 }
+
+
+@media only screen and (max-width: 992px) {
+  .mobile-skill {
+    padding: 0 2rem
+    }
+}
 @media (max-width: 768px) {
   .mobile-flex {
     flex-direction: column;
@@ -508,6 +499,7 @@ body {
   .mobile-skill {
     display: flex;
     justify-content: space-around;
+    margin-bottom: 1.5rem;
   }
   .headerimg {
     height: 500px;
@@ -635,3 +627,45 @@ body {
 }
  
 }
+
+@media (max-width: 600px) {
+
+  .stacklogo {
+    height: 40px;
+    margin-right: 20px;
+  }
+  
+  .stacklogo-big {
+    height: 40px;
+    margin-right: 20px;
+  }
+  .mobile-skill {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 0.5rem 0 0.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .section {
+    padding: 1.5rem;
+    box-shadow: -5px 10px 32px 1px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: -5px 5px 10px 1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -5px 5px 10px 1px rgba(0, 0, 0, 0.75);
+    margin-bottom: 3rem;
+  }
+  
+  .section:hover {
+    border-radius: 1rem;
+    padding: 2rem;
+    box-shadow: -5px 10px 32px 1px rgba(240, 41, 101, 0.75);
+    -webkit-box-shadow: -5px 10px 32px 1px rgba(240, 41, 101, 0.75);
+    -moz-box-shadow: -5px 10px 32px 1px rgba(240, 41, 101, 0.75);
+    margin-bottom: 6rem;
+  }
+  .img img {
+   margin-left: 1.5rem;
+  }
+
+}
+
