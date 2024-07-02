@@ -323,7 +323,7 @@ body {
   height: 15rem;
   /* width: 5rem; */
   background: linear-gradient(rgba(255, 255, 255, 0), rgba(250, 250, 250, 0)),
-    url(../images/cloudbank.png);
+    url(../images/starwars.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -344,8 +344,19 @@ body {
   -webkit-box-shadow: -5px 10px 32px 1px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: -5px 10px 32px 1px rgba(0, 0, 0, 0.75);
 }
-
 .projectframe3 {
+  height: 15rem;
+  background-image: url(../images/slack.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  box-shadow: -5px 10px 32px 1px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -5px 10px 32px 1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -5px 10px 32px 1px rgba(0, 0, 0, 0.75);
+}
+
+/* .projectframe3 {
   height: 170px;
   width: 150px;
   background-image: url(../images/starwars.jpg);
@@ -382,8 +393,27 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   z-index: 1;
-}
+} */
 
+.projectframe5 {
+  height: 170px;
+  width: 150px;
+  background-image: url(../images/slack.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.projectframe5:hover {
+  height: 170px;
+  width: 150px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)),
+    url(/images/slack.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 1;
+}
 .mobileframe0 {
   height: 15rem;
   /* width: 150px; */
@@ -397,7 +427,7 @@ body {
 .mobileframe1 {
   height: 15rem;
   /* width: 150px; */
-  background-image: url(../images/hiversa_mobile.png);
+  background-image: url(../images/travelApp.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -677,5 +707,10 @@ body {
    margin-left: 1.5rem;
   }
 
+ 
 }
 
+.date {
+  color: grey;
+  font-size: 0.5rem;
+}
